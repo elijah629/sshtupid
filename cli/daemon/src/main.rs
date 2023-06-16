@@ -11,6 +11,7 @@ type LPSTR = String;
 type INT = isize;
 struct HINSTANCE;
 
+/// Important: change this line guys
 const FETCH_SRC: &'static LPCSTR = "127.0.0.1:3131/ph/html";
 
 fn FetchHeadlines(_url: &LPCSTR, sender: MPSCSENDER<Vec<LPSTR>>) {
