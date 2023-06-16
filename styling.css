@@ -3,6 +3,20 @@
     src: url(assets/fonts/ProggyClean/ProggyCleanNerdFont-Regular.ttf);
 }
 
+h1 {
+    display: inline-block;
+    margin-left: 35%;
+    width: 30%;
+    padding: 5px;
+    background: rgb(255,0,0);
+background: linear-gradient(135deg, rgba(255,0,0,1) 0%, rgba(255,177,0,1) 10%, rgba(102,255,0,1) 20%, rgba(0,255,61,1) 30%, rgba(0,248,255,1) 40%, rgba(5,100,218,1) 50%, rgba(41,0,255,1) 60%, rgba(130,0,255,1) 70%, rgba(255,0,134,1) 80%, rgba(255,0,145,1) 90%, rgba(255,0,157,1) 100%);
+    border-radius: 10px;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    font-family: ProggyCleanRegular;
+}
+
 p {
     font-size: 25px;
 }
@@ -19,6 +33,7 @@ p {
     padding: 25px;
 
     /* other styling */
+    background-color: white;
     border-radius: 10px;
     border-style: solid;
     border-color: black;
