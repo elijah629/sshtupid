@@ -1,0 +1,2 @@
+# sshtupid
+the sshtupid newsletter 
