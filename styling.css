@@ -1,0 +1,37 @@
+@font-face {
+    font-family: ProggyCleanRegular;
+    src: url(assets/fonts/ProggyClean/ProggyCleanNerdFont-Regular.ttf);
+}
+
+p {
+    font-size: 25px;
+}
+
+.NewsClass {
+    font-family: ProggyCleanRegular;
+    text-align: center;
+}
+  
+.container {
+    display: inline-block;
+    margin-left: 25%;
+    width: 50%;
+    padding: 25px;
+
+    /* other styling */
+    border-radius: 10px;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+}
+
+#inner {  
+    border: 0.05em solid black;
+  }
+  
+#outer {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+}
