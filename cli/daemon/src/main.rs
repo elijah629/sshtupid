@@ -1,5 +1,7 @@
 use std::{
-    fs::File, io::Write, sync::mpsc::channel as CreateMPSC, sync::mpsc::Sender as MPSCSENDER,
+    fs::File, io::Write, 
+    sync::mpsc::channel as CreateMPSC, 
+    sync::mpsc::Sender as MPSCSENDER,
     thread::spawn as SpawnThread,
 };
 
@@ -49,10 +51,10 @@ fn WinMain(
             Ok(_) => 0,
             Err(_) => 1,
         }
-    });
+    }).sum::<INT>() as INT;
 
     // Exit with a status code indicating failures
-    res.sum::<INT>() as INT
+    res
 }
 
 fn main() {
